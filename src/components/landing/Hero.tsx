@@ -24,15 +24,6 @@ const Hero = () => {
         }
       );
 
-      // Floating animation for hero elements
-      gsap.to(".floating-element", {
-        y: -20,
-        duration: 3,
-        repeat: -1,
-        yoyo: true,
-        ease: "power2.inOut",
-        stagger: 0.2
-      });
 
     }, heroRef);
 
